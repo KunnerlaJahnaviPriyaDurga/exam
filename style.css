@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f2f2f2;
+    text-align: center;
+}
+header {
+    background: navy;
+    color: white;
+    padding: 20px;
+}
+.categories button {
+    margin: 10px;
+    padding: 10px;
+    background: rgb(121, 209, 239);
+    border: none;
+    cursor: pointer;
+}
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px gray;
+}
